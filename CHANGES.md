@@ -11,6 +11,7 @@ We would now like to make some edits to this Laravel application.  You will be r
 5. Add a form to the ***EditUser*** component to allow the user details to be updated.
 6. Add validation rules to the Livewire component.
 7. Create a `save` method in the ***EditUser*** component to update the user record in the database and display an appropriate success message.
+8. Link up the `save` method to the form save button.
 ---
 ### 1. Create a new livewire component called ***EditUser***.
 
@@ -76,9 +77,17 @@ In the newly created Livewire component add validation rules to the form fields 
 
 ### 7. Create a `save` method in the ***EditUser*** component to update the user record
 
-In the newly created Livewire component create a `save` method that will update the user record in the database and display an appropriate success message.
+In the newly created Livewire component create a `save` method that will update the user record in the database.
 
 ```Hint: You will need to use the `update` method on the user record to save the changes to the database.```
+
+---
+
+### 8. Link up the `save` method to the form save button.
+
+Now that you have a save method in the new component, link this up to the form save button so that when the user clicks the save button the user record is updated in the database and display an appropriate success message.
+
+```Hint: You will need to use one of the in-built Liewire commands to connect up the button to the method.```
 
 ---
 

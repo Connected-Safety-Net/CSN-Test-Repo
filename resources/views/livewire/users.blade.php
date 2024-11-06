@@ -4,6 +4,7 @@
             <table class="table-responsive w-full">
                 <thead class="bg-gray-700 text-white">
                 <tr>
+                    <td class="p-2">Employee ID</td>
                     <td class="p-2">Name</td>
                     <td class="p-2">Email</td>
                     <td class="p-2">Phone</td>
@@ -13,6 +14,7 @@
                 </thead>
                 @foreach($users as $u)
                     <tr class="border-b">
+                        <td class="p-2">{{ $u->employee_id }}</td>
                         <td class="p-2">{{ $u->name }}</td>
                         <td class="p-2">{{ $u->email }}</td>
                         <td class="p-2">{{ $u->phone }}</td>

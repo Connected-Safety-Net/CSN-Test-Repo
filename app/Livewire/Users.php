@@ -17,7 +17,7 @@ class Users extends Component
 
     protected function loadUsers()
     {
-        $this->users = User::orderBy('name')->get();
+        $this->users = User::orderBy('employee_id')->get();
     }
     public function render()
     {
