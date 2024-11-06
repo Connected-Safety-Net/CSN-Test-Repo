@@ -1,0 +1,1 @@
+<a {{ $attributes->merge(['class' => 'inline-block text-white rounded px-3 py-1']) }} href="{{ $href }}">{{ $slot }}</a>

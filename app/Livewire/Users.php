@@ -12,6 +12,7 @@ class Users extends Component
 
     public function mount()
     {
+        $this->loadUsers();
     }
 
     protected function loadUsers()
