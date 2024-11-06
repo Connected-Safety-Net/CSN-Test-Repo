@@ -14,4 +14,4 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', Users::class)->name('users.index');
+Route::get('/', Users::class)->name('user.index');
