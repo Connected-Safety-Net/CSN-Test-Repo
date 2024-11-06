@@ -61,9 +61,11 @@ To run this container you will need Docker installing on your computer. On Micro
 ```Hint: You need to use Composer and NPM to install the dependencies.```
 <details>
 <summary> <b>Help:</b> </summary>
-  You need to have the container loaded in something like WSL2 (Windows Subsystem for Linux 2) or a Linux environment and Docker needs to be running ready to start the container. To install the dependencies you need to run the following command using the terminal in the root of the project:
+To run the container you need to use the following command in the terminal in the root of the project:
 
-```composer install && npm install```
+    ./vendor/bin/sail up -d && npm run dev
+
+This command will start the container in the background and compile the frontend assets using Vite.
 </details>
 
 ---
@@ -76,9 +78,11 @@ This application has a MySQL database that needs to be created and seeded with d
 ```Hint: You will need to run the releavant Laravel Artisan commands in the terminal.```
 <details>
 <summary> <b>Help:</b> </summary>
-    To run the migrations and seed the database you need to run the following command using the terminal in the root of the project.  Note the application will need to be running for this migration to work.
+To run the migrations and seed the database you need to run the following command using the terminal in the root of the project.  Note the application will need to be running for this migration to work.
     
-    ```./vendor/bin/sail artisan migrate --seed```
+    ./vendor/bin/sail artisan migrate --seed
+
+This command will run the migrations and seed the database with the data required for the application.
 </details>
 
 ---
