@@ -81,3 +81,5 @@ In the newly created Livewire component create a `save` method that will update 
 ```Hint: You will need to use the `update` method on the user record to save the changes to the database.```
 
 ---
+
+***Congratulations! You have now completed the changes to the Laravel application.***

@@ -78,7 +78,7 @@ This application has a MySQL database that needs to be created and seeded with d
 <summary> <b>Help:</b> </summary>
     To run the migrations and seed the database you need to run the following command using the terminal in the root of the project.  Note the application will need to be running for this migration to work.
     
-    ```/vendor/bin/sail artisan migrate --seed```
+    ```./vendor/bin/sail artisan migrate --seed```
 </details>
 
 ---
